@@ -1,14 +1,42 @@
-body{
+body {
   font-family: sans-serif;
-  font-size:110%;
-  background-color: #FCF7F8;
+  font-size: 110%;
+  background-color: #ffffff;
+}
+
+#headshot {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  border: 6px solid white;
 }
 
 header {
   text-align: center;
+  background-color: #343330;
+  color: #ffffff;
 }
 
 footer {
   background-color: #343330;
   text-align: center;
+  color: #ffffff;
+}
+
+#sidebar {
+  width: 50%;
+  background-color: #343330;
+  color: #ffffff;
+  padding: 2rem;
+}
+
+.nav-menu {
+  list-style-type: georgian;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #ffffff;
+  padding: 0%;
+}
+
+.nav-menu li a {
+  color: #ffffff;
 }
