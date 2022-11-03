@@ -2,11 +2,19 @@ body {
   font-family: sans-serif;
   font-size: 110%;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
 
 #headshot {
-  width: 20%;
-  height: 20%;
+  display: block;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
   border-radius: 50%;
   border: 6px solid white;
 }
@@ -15,6 +23,23 @@ header {
   text-align: center;
   background-color: #343330;
   color: #ffffff;
+  font-style: italic;
+}
+
+header h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 60px;
+  color: white;
+  font-size: 50px;
+  font-weight: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 6px solid white;
+}
+
+header p {
 }
 
 footer {
@@ -28,15 +53,47 @@ footer {
   background-color: #343330;
   color: #ffffff;
   padding: 2rem;
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  top: 0;
+  width: 200px;
+  box-sizing: border-box;
+}
+
+#sidebar h2 {
+  padding-left: 1rem;
+  font-weight: 900;
 }
 
 .nav-menu {
-  list-style-type: georgian;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  list-style: none;
   color: #ffffff;
   padding: 0%;
 }
 
 .nav-menu li a {
   color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.nav-menu li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  overflow: unset;
+  padding-left: 200px;
+}
+
+main article {
+  padding: 1rem;
+}
+
+main article h2 {
 }
