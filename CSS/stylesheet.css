@@ -39,7 +39,6 @@ header h1 {
   border: 6px solid white;
 }
 
-
 footer {
   background-color: #343330;
   text-align: center;
@@ -103,10 +102,10 @@ main article h3 {
   text-decoration: underline;
 }
 
-main article ul{
+main article ul {
   list-style-type: disc;
 }
 
 footer a:hover {
   background: rgba(241, 241, 241, 0.2);
-  
+}
